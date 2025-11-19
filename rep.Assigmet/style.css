@@ -1,36 +1,74 @@
+/* Body styling */
 body {
   font-family: Arial, sans-serif;
   font-size: 18px;
 }
 
+/* Header styling */
 header {
   background-color: #4A90E2;
 }
 
+/* Navigation styling */
 nav {
+  display: inline-block;
+  width: 80%;
   background-color: #2C3E50;
 }
 
+/* Comment out old li styles */
+/*
+li {
+  display: inline-block;
+  width: 30%;
+}
+*/
+
+/* Nav images only */
+nav img {
+  width: 10%;
+}
+
+/* Main section */
 main {
   background-color: #ECF0F1;
   font-size: 20px;
 }
 
+/* Footer */
 footer {
   background-color: #34495E;
 }
 
-li {
-  display: inline-block;
-  width: 30%;
-}
-
+/* H1 heading */
 h1 {
   text-align: center;
   font-family: Verdana, sans-serif;
   color: #333;
 }
 
+/* Paragraphs */
 p {
   line-height: 1.6;
+}
+
+/* Grid class */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* Images inside grid */
+.grid img {
+  width: 100%;
+}
+
+/* Flex class */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
